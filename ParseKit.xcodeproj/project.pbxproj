@@ -1282,7 +1282,6 @@
 				D36E98CB0E58C08F00496BD3 /* DebugApp */,
 				D334941B0E29641300406085 /* DemoApp */,
 				D380BA950F0F1C450009EC13 /* JSParseKit Framework */,
-				D389F2CA0F196ACF00558235 /* JSDemoApp */,
 				D3AF4C8E0FDC738B0032F4DC /* Other Sources */,
 				32C88DFF0371C24200C91783 /* Other Sources (not used) */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -1444,6 +1443,7 @@
 		D334941B0E29641300406085 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D389F2CA0F196ACF00558235 /* JSDemoApp */,
 				D3F0E3600FFEA2B500C9DF74 /* DemoApp-Info.plist */,
 				D36E98F70E58C1A000496BD3 /* DemoAppMainMenu.xib */,
 				D36E98E50E58C14000496BD3 /* main.m */,
@@ -2673,7 +2673,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "ParseKit" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* TODParseKit */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -3669,10 +3676,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ParseKitMobile_Prefix.pch;
 				HEADER_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = parsekit;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -3690,7 +3697,7 @@
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = parsekit;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
 			name = Release;

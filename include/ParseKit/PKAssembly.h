@@ -83,4 +83,7 @@
     @details    The object identified as this assembly's "target". Clients can set and retrieve a target, which can be a convenient supplement as a place to work, in addition to the assembly's stack. For example, a parser for an HTML file might use a web page object as its "target". As the parser recognizes markup commands like &lt;head>, it could apply its findings to the target.
 */
 @property (nonatomic, retain) id target;
+
+@property (nonatomic, readonly, retain) NSString *defaultDelimiter;
+@property (nonatomic, readonly) NSUInteger length;
 @end

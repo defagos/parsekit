@@ -27,7 +27,6 @@ static NSString * const PKAssemblyDefaultDelimiter = @"/";
 @property (nonatomic) NSUInteger index;
 @property (nonatomic, retain) NSString *string;
 @property (nonatomic, readwrite, retain) NSString *defaultDelimiter;
-@property (nonatomic, readonly) NSUInteger length;
 @property (nonatomic, readonly) NSUInteger objectsConsumed;
 @property (nonatomic, readonly) NSUInteger objectsRemaining;
 @end

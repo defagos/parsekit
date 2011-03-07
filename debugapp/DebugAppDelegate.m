@@ -451,7 +451,7 @@
 
 
 - (void)doJSParser {
-    TDJavaScriptParser *jsp = [TDJavaScriptParser parser];
+    TDJavaScriptParser *jsp = (TDJavaScriptParser *)[TDJavaScriptParser parser];
     NSString *s = @"for( ; true; true) {}";
     jsp.tokenizer.string = s;
 //    PKTokenAssembly *a = [PKTokenAssembly assemblyWithTokenizer:jsp.tokenizer];
